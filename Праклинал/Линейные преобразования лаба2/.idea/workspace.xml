@@ -4,24 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ae7818-8eb4-44a4-a1bf-54f224d42a98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/Linal_practice-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/amplicode-jpa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/amplicode-jpa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Линейные преобразования лаба2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="05ae7818-8eb4-44a4-a1bf-54f224d42a98" name="Changes" comment="pngs + descriptions + console pring explans">
       <change beforePath="$PROJECT_DIR$/scrpits/start/1script.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrpits/start/1script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/scrpits/start/polygon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_10_[[5,1],[0,1]]_круг→эллипс,_площадь_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_11_симметричная_с_повёрнутыми_осями.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_12_дефектная_Жорданова.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_13_поворот_на_90°.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_14_скалярная_-2I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_15AB_A·B.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_15A_A_=_[[1,1],[0,1]].jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_15BA_B·A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_15B_B_=_R90°.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_16A_A_=_Ratanb·diag2,3·R-atanb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_16B_B_=_Ratanb·diag5,7·R-atanb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_1_отражение_относительно_y=2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_2_проекция_на_y=-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_3_поворот_на_40°.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_4_центральная_симметрия.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_5_R-50°_после_отражения_y=2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_6_e1→1,2,_e2→1,-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_7_обратная_к_пункту_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_8_перестановка_прямых_y=2x_↔_y=-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_9_2·R45°_круг→круг,_площадь_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrpits/start/polygon_отражение относительно y=x.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +46,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/GorilaGlassIDEA/Linal_practice-2.git",
+    "url": "https://github.com/keksmd/Linal_practice-2.git",
     "accountId": "4b6cf054-b5d0-4fa4-9b82-1fee889ef8fe"
   }
 }]]></component>
@@ -64,6 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/alex/IdeaProjects/Linal_practice-2/Праклинал/Линейные преобразования лаба2",
@@ -85,14 +93,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758744524944</updated>
-      <workItem from="1758744526409" duration="2807000" />
+      <workItem from="1758744526409" duration="3717000" />
     </task>
+    <task id="LOCAL-00001" summary="16 punkts">
+      <option name="closed" value="true" />
+      <created>1758747564733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758747564733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pngs + descriptions + console pring explans">
+      <option name="closed" value="true" />
+      <created>1758747874209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758747874209</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="16 punkts" />
+    <MESSAGE value="pngs + descriptions + console pring explans" />
+    <option name="LAST_COMMIT_MESSAGE" value="pngs + descriptions + console pring explans" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/__2$1script.coverage" NAME="1script Coverage Results" MODIFIED="1758746295023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrpits/start" />
+    <SUITE FILE_PATH="coverage/__2$1script.coverage" NAME="1script Coverage Results" MODIFIED="1758748436100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrpits/start" />
   </component>
 </project>
