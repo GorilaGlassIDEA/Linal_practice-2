@@ -325,9 +325,31 @@ pairs = [
 params_note = f"*Числовая подстановка:* a={a}, b={b}, c={c}, d={d}."
 
 for M, key in items + pairs:
+
     meta = explanations[key]
     det_val = np.linalg.det(M)
     eig_txt = eigvals_text(M)
+
+    transformed_points = transform_polygon(points, M)
+    fig, ax = plt.subplots(figsize=(6,6))
+    draw_axes(ax, lim=8)
+    plot_polygon(ax, points, color='royalblue', label='Исходный')
+    plot_polygon(ax, transformed_points, color='crimson', label={meta['title']})
+    # линии собственных векторов, если есть 2 разные вещественные λ
+    try:
+        draw_eig_lines(ax, M, lim=8)
+    except np.linalg.LinAlgError:
+        pass
+    ax.legend(loc='upper left', fontsize=10, frameon=True)
+    # имя файла без пробелов/скобок
+    n =  meta["title"].replace(" ", "_").replace("(", "").replace(")", "")
+    fname = "polygon_" +n + ".jpg"
+    plt.savefig(fname, format="jpg", dpi=300, bbox_inches="tight")
+    plt.show()
+
+
+
+
 
     print(f"\n=== {meta['title']} ===")
     print_matrix_pretty(M)
@@ -336,5 +358,5 @@ for M, key in items + pairs:
     print("Обоснование:", meta["reason"])
 
     # сохранить в файл
-    filename = f"{meta['slug']}.md"
+    filename = f"{n}.md"
     save_explanation(filename, meta["title"], M, f"{det_val:.6g}", eig_txt, meta["reason"], params_note)
